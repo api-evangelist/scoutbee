@@ -1,8 +1,22 @@
 aid: scoutbee
 name: Scoutbee
-description: 'Scoutbee is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+description: 'Scoutbee is an AI-powered supplier discovery and procurement intelligence
+  platform that helps enterprise buyers instantly find, vet, and connect with trusted
+  suppliers. Founded in 2015 in Berlin, Germany, Scoutbee uses large language models,
+  knowledge-graph technology, and a global supplier network to power supplier discovery,
+  sourcing project execution (Streamline), and a centralized supplier data foundation
+  (DeepSee), surfaced through the Scoutbee Intelligence Platform. Its AI gives procurement,
+  sourcing, and category-management teams recommendations for suppliers matched on
+  qualifications, risk, certifications, sustainability, diversity, cost, and experience.
+  Scoutbee integrates with SAP Ariba guided sourcing and, following its October 2025
+  acquisition by Coupa, is being embedded into the Coupa Supplier Portal. Scoutbee
+  does not currently publish a public developer API or documentation portal; this
+  profile captures its public identity and web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/scoutbee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +24,48 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.scoutbee.com/logos/scoutbee_coupa_co_color.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Enterprise Software
+- Procurement
+- Supplier Discovery
+- Supply Chain
+- Sourcing
+- Artificial Intelligence
+- Enterprise Software
 apis: []
+common:
+- type: DomainSecurity
+  url: security/scoutbee-domain-security.yml
+- type: Website
+  url: https://www.scoutbee.com/
+- type: Blog
+  url: https://blog.scoutbee.com/
+- type: Support
+  url: https://www.scoutbee.com/contact
+- type: TermsOfService
+  url: https://www.scoutbee.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.scoutbee.com/privacy-policy
+- type: SignUp
+  url: https://www.scoutbee.com/suppliers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/scoutbee/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
