@@ -49,7 +49,7 @@ accessModel:
 image: https://www.scoutbee.com/logos/scoutbee_coupa_co_color.svg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Ai Enterprise Software
@@ -61,6 +61,8 @@ tags:
 - Enterprise Software
 apis: []
 common:
+- url: https://blog.scoutbee.com/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/scoutbee-domain-security.yml
 - type: Website
